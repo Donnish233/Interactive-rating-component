@@ -1,0 +1,16 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  text-align: left;
+  place-items: center;
+}
+.app-container {
+  display: flex;
+  justify-content: center;   /* horizontal centering */
+  align-items: center;       /* vertical centering */
+  min-height: 100vh;         /* fill full viewport height */
+  background-color: #141519; /* dark background */
+  color: white;              /* default text color */
+  font-family: 'Inter', sans-serif;
+}
