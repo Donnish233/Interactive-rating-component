@@ -1,6 +1,6 @@
 export default function Done({ rating }) {
   return (
-    <main className="w-85 flex flex-col items-center gap-6">
+    <main className="w-82 flex flex-col items-center gap-5">
       <img
         src="/images/illustration-thank-you.svg"
         alt="Thank you illustration"

@@ -28,7 +28,7 @@ main{
 }
 h1{
   font-size: 1.75rem;
-  font-weight: 700;
+  font-weight: 800;
 }
 p{
   font-size: small;
@@ -37,8 +37,11 @@ button:active {
   background-color: #f59e0b; /* or a lighter pink/orange */
   transform: scale(0.95);
 }
+a, a:active, a:hover, a:visited{
+  color: blue;
+}
 
-@media (max-width: 480px) {
+@media (max-width: 30rem) {
   main {
     padding: 1.5rem;
     width: 98%;
